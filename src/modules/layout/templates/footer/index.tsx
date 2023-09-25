@@ -4,10 +4,10 @@ import MedusaCTA from "@modules/layout/components/medusa-cta"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-gray-800  ">
       <FooterCTA />
       <FooterNav />
-      <MedusaCTA />
+      {/* <MedusaCTA /> */}
     </footer>
   )
 }
