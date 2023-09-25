@@ -150,7 +150,7 @@ const FooterNav = () => {
             <ul className="grid grid-cols-1 gap-y-2">
               <li>
                 <a
-                  href="https://github.com/medusajs"
+                  href="/about"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -159,7 +159,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://docs.medusajs.com"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -168,7 +168,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -177,7 +177,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
+                  href="/account"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -186,7 +186,7 @@ const FooterNav = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/medusajs/nextjs-starter-medusa"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
