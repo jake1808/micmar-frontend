@@ -3,10 +3,10 @@ import React from "react"
 function News() {
   return (
     <>
-      <div id="blog" className="bg-white px-4 xl:px-0 py-12">
-        <div className="mx-auto container">
-          <h1 className="text-center text-2xl-regular text-gray-900  mb-4">
-            Micmar News
+      <div id="blog" className="bg-white md:mt-10 h-screen px-4 xl:px-0 py-12">
+        <div className="mx-auto container   md:w-11/12">
+        <h1 className="px-16 text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  md:text-5xl  text-gray-800 pb-4">
+            News
           </h1>
           <div className="mt-12 px-16 lg:mt-24">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
