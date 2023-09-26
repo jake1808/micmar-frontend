@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'annabanner': 'url("/annabanner.jpg")',
+      },
       
       transitionProperty: {
         "width": "width",

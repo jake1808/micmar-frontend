@@ -10,7 +10,7 @@ import clsx from "clsx"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
-
+import Image from "next/image"
 const Nav = () => {
   const pathname = usePathname()
   const [isHome, setIsHome] = useState(true)
@@ -43,13 +43,13 @@ const Nav = () => {
 
   return (
     <div
-      className={clsx("sticky top-0 inset-x-0 z-50 group", {
+      className={clsx("sticky top-0 py-6 bg-white border-red-500 inset-x-0 z-50 group", {
         "!fixed": isHome,
       })}
     >
       <header
         className={clsx(
-          "relative h-16 px-8 mx-auto transition-colors bg-transparent border-b border-transparent duration-200 group-hover:bg-white group-hover:border-gray-200",
+          "relative h-16 px-8 mx-auto transition-colors bg-transparent md:max-h-fit  border-transparent duration-200 group-hover:bg-white group-hover:border-gray-200",
           {
             "!bg-white !border-gray-200": !isHome || isScrolled,
           }
@@ -57,7 +57,7 @@ const Nav = () => {
       >
         <nav
           className={clsx(
-            "text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
+            "text-gray-900 flex items-center justify-between md:max-h-fit w-full h-full text-small-regular transition-colors duration-200",
             {
               "text-white group-hover:text-gray-900": isHome && !isScrolled,
             }
@@ -73,8 +73,22 @@ const Nav = () => {
           </div>
 
           <div className="flex items-center h-full">
-            <Link href="/" className="text-xl-semi uppercase">
-              Micmar online
+            <Link href="/" className="text-xl-semi flex items-center gap-5 uppercase">
+            <Image
+                  src="/logo.jpg"
+                  className={clsx(
+                    "rounded-full flex",
+                    isHome && !isScrolled
+                      ? "hidden"
+                      : "flex group-hover:flex",
+                      isHome ? "group-hover:flex":"",
+                     
+                  )}
+                  width={100}
+                  height={20}
+                  alt="logo"
+                />
+              <span>Micmar Online</span>
             </Link>
           </div>
 
@@ -83,8 +97,7 @@ const Nav = () => {
               {process.env.FEATURE_SEARCH_ENABLED && <DesktopSearchModal />}
               <Link href="/account">Account</Link>
             </div>
-            <div className="hidden small:flex items-center gap-x-6 h-full">
-               
+            <div className="hidden small:flex items-center gap-x-6 h-full">              
               <Link href="/about">About</Link>
             </div>
             <CartDropdown />

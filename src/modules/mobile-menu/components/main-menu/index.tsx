@@ -31,12 +31,12 @@ const MainMenu = () => {
             className="flex items-center gap-x-2"
             onClick={setScreenCountry}
           >
-            <ReactCountryFlag countryCode={countryCode || "us"} svg />
-            <ChevronDown />
+            {/* <ReactCountryFlag countryCode={countryCode || "us"} svg />
+            <ChevronDown /> */}
           </button>
         </div>
         <div>
-          <h1 className="text-xl-semi uppercase">Acme</h1>
+          <h1 className="text-xl-semi uppercase">Micmar Online</h1>
         </div>
         <div className="flex-1 basis-0 flex justify-end">
           <button onClick={close}>
@@ -99,6 +99,14 @@ const MainMenu = () => {
           <div className="flex flex-col gap-y-8 text-small-regular">
             {!customer ? (
               <div className="flex flex-col gap-y-4">
+                <Link href="/about" >  <button
+                    className="text-gray-700 uppercase"
+                    onClick={close}
+                  >
+                
+                    About
+                    
+                  </button></Link>
                 <span className="text-gray-700 uppercase">Account</span>
                 <Link href={`/account/login`} passHref>
                   <button
@@ -128,22 +136,7 @@ const MainMenu = () => {
             )}
             <div className="flex flex-col gap-y-4">
               <span className="text-gray-700 uppercase">Delivery</span>
-              <button
-                className="flex items-center justify-between border-b border-gray-200 py-2"
-                onClick={setScreenCountry}
-              >
-                <span className="sr-only">
-                  Click to select shipping country
-                </span>
-                <div className="flex items-center gap-x-2">
-                  <ReactCountryFlag countryCode={countryCode || "us"} svg />
-                  <span className="normal-case">
-                    Shipping to{" "}
-                    {countries?.find((c) => c.country === countryCode)?.label}
-                  </span>
-                </div>
-                <ChevronDown className="-rotate-90" />
-              </button>
+             
             </div>
           </div>
         </div>

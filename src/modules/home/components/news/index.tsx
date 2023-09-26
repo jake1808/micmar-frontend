@@ -3,12 +3,12 @@ import React from "react"
 function News() {
   return (
     <>
-      <div id="blog" className="bg-white md:mt-10 h-screen px-4 xl:px-0 py-12">
+      <div id="blog" className="bg-white max-h-fit  md:mt-10 md:h-screen px-4 xl:px-0 ">
         <div className="mx-auto container   md:w-11/12">
-        <h1 className="px-16 text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  md:text-5xl  text-gray-800 pb-4">
+        <h1 className="md:px-16  text-4xl-semi text-4 mb-4 py-10 drop-shadow-md shadow-black  text-5xl  text-gray-800 pb-4">
             News
           </h1>
-          <div className="mt-12 px-16 lg:mt-24">
+          <div className="mt-12 md:px-16 lg:mt-24">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
               <div className="shadow-lg rounded-lg">
                 <img
