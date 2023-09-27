@@ -5,10 +5,10 @@ import Image from "next/image"
 function Contact() {
   const [show, setShow] = useState(true)
   return (
-    <div className="bg-white h-screen  w-full">
-      <div className=" flex items-center  border-yellow-500 md:w-11/12 px-16 m-auto  justify-center gap-40">
-        <div className=" bg-white  rounded md:py-28  lg:px-28 px-8">
-          <p className=" text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  md:text-5xl  text-gray-800 pb-4">
+    <div className="bg-white max-h-fit md:h-screen  w-full">
+      <div className=" 2xl:container flex md:flex-row flex-col  px-10 border-yellow-500 md:w-11/12  m-auto  justify-between ">
+        <div className=" bg-white  rounded md:py-28 py-10 border-yellow-500 ">
+          <p className=" text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  text-5xl  text-gray-800 pb-4">
             Contact Us!
           </p>
           <div className="md:flex items-center mt-12">
@@ -88,7 +88,7 @@ function Contact() {
             </button>
           </div>
         </div>
-        <div className="flex-1 w-1/2 border-yellow-500 h-full">
+        <div className=" hidden md:flex w-fit  border-red-500 h-full">
         <Image
             className=" "
             src="/lighting.jpg"
