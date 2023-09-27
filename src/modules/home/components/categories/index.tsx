@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Image from "next/image"
 export default function ProductCategories() {
   return (
-    <div className="pb-16 md:h-screen max-h-fit">
+    <div className="pb-16 2xl:container 2xl:mx-auto lg: lg:px-20 px-10  md:px-6 ">
       <div className="flex justify-center border-yellow-500 items-center">
         <div className="2xl:mx-auto   border-red-500 2xl:container py-12 px-4 sm:px-6 xl:px-20 2xl:px-0 w-full">
           <div className="flex flex-col jusitfy-center items-center space-y-10">
@@ -10,7 +10,7 @@ export default function ProductCategories() {
               <p className="text-xl leading-5 text-gray-600">
                
               </p>
-              <h1 className="text-3xl xl:text-4xl font-semibold leading-7 xl:leading-9 text-gray-800">
+              <h1 className="text-2xl-regular text-gray-900 max-w-lg mb-4">
                 Shop By Category
               </h1>
             </div>

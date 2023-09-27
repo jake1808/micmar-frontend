@@ -3,8 +3,8 @@ import React from "react"
 function News() {
   return (
     <>
-      <div id="blog" className="bg-white max-h-fit  md:mt-10 md:h-screen px-4 xl:px-0 ">
-        <div className="mx-auto container   md:w-11/12">
+      <div id="blog" className="bg-white  max-h-fit pt-10 px-10 md:mt-10 md:h-screen  xl:px-0 ">
+        <div className="mx-auto    md:w-11/12">
         <h1 className="md:px-16  text-4xl-semi text-4 mb-4 py-10 drop-shadow-md shadow-black  text-5xl  text-gray-800 pb-4">
             News
           </h1>

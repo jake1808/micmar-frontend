@@ -45,7 +45,7 @@ const Nav = () => {
     <div
       className={clsx("sticky top-0 py-6 bg-white border-red-500 inset-x-0 z-50 group", {
         "!fixed": isHome,
-      })}
+      },(isScrolled ? "shadow-md":"border-transparent"))}
     >
       <header
         className={clsx(
@@ -72,23 +72,23 @@ const Nav = () => {
             </div>
           </div>
 
-          <div className="flex items-center h-full">
+          <div className="flex items-center  h-2/4">
             <Link href="/" className="text-xl-semi flex items-center gap-5 uppercase">
             <Image
                   src="/logo.jpg"
                   className={clsx(
-                    "rounded-full flex",
+                    "rounded-full  hidden",
                     isHome && !isScrolled
                       ? "hidden"
-                      : "flex group-hover:flex",
-                      isHome ? "group-hover:flex":"",
+                      : "md:flex md:group-hover:flex",
+                      isHome ? "group-hover:flex":"hidden",
                      
                   )}
                   width={100}
                   height={20}
                   alt="logo"
                 />
-              <span>Micmar Online</span>
+              <span className="">Micmar Online</span>
             </Link>
           </div>
 
