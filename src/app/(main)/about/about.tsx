@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="2xl:container max-h-fit md:h-screen 2xl:mx-auto lg: lg:px-20 px-10  md:px-6  ">
       <div className="flex flex-col lg:flex-row justify-between  border-yellow-500 md:pt-32  ">
         <div className="w-full lg:w-5/12 flex-1 flex flex-col     md:pr-16 ">
-          <h1 className=" text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  py-10  text-5xl  text-gray-800 pb-4">
+          <h1 className=" text-4xl-semi text-4  drop-shadow-md shadow-black  py-10  text-5xl  text-gray-800 pb-4">
             About Us
           </h1>
           <p className="font-normal py-10 text-base leading-6 text-gray-600 ">

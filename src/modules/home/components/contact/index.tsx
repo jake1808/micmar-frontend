@@ -5,9 +5,9 @@ import Image from "next/image"
 function Contact() {
   const [show, setShow] = useState(true)
   return (
-    <div className="bg-white max-h-fit md:h-screen  w-full">
-      <div className=" 2xl:container flex md:flex-row flex-col  px-10 border-yellow-500 md:w-11/12  m-auto  justify-between ">
-        <div className=" bg-white  rounded md:py-28 py-10 border-yellow-500 ">
+    <div className="bg-white min-h-fit border-red-500 md:h-screen  w-full">
+      <div className=" 2xl:container flex  md:flex-row flex-col md:space-x-14 pb-10  px-10 border-yellow-500 md:w-11/12  m-auto   justify-between ">
+        <div className=" bg-white rounded  border-yellow-500 ">
           <p className=" text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  text-5xl  text-gray-800 pb-4">
             Contact Us!
           </p>
