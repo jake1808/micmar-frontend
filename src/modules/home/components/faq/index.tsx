@@ -9,7 +9,7 @@ const [show4, setShow4] = useState(false);
 
 return (
     <div className=" 2xl:container max-h-fit md:h-screen px-10 md:pt-32 2xl:mx-auto lg:px-20  md:px-6 ">
-        <h2 className=" text-4xl-semi text-4 mb-4 drop-shadow-md shadow-black  text-5xl py-10  text-gray-800 pb-4">Frequently Asked Questions</h2>
+        <h2 className="   md:py-5 text-2xl-regular w-full text-gray-900  mb-4 pb-4">Frequently Asked Questions</h2>
         <div className="mt-4 flex md:justify-between md:items-start md:flex-row flex-col justify-start items-start">
             <div className=" ">
                 <p className=" font-normal text-base leading-6 text-gray-600 lg:w-8/12 md:w-9/12 ">Here are few of the most frequently asked questions by our valueable customers</p>
