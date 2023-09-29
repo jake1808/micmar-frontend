@@ -20,14 +20,13 @@ const Home = () => {
   return (
     <>
       <Hero />
-<<<<<<< HEAD
       <CategoryBrands />
-      <Newproducts />
+      <NewProducts />
       <ProductCategories/>
-=======
+
       <NewProducts />
       <ProductCategories />
->>>>>>> 94d11fe272f5d311212305d56151a931695116cd
+
       <Announcements />
       <FeaturedProducts />
       {/* <Faq/>
