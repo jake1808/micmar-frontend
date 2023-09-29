@@ -8,6 +8,7 @@ const ProductPreview = ({
   handle,
   thumbnail,
   price,
+
 }: ProductPreviewType) => {
   return (
     <Link href={`/products/${handle}`}>
@@ -18,7 +19,7 @@ const ProductPreview = ({
           <div className="flex items-center gap-x-2 mt-1">
             {price ? (
               <>
-                {price.price_type === "sale" && (
+                {/* {price.price_type === "sale" && (
                   <span className="line-through text-gray-500">
                     {price.original_price}
                   </span>
@@ -29,6 +30,14 @@ const ProductPreview = ({
                   })}
                 >
                   {price.calculated_price}
+                </span> */}
+                <span
+                  className={clsx("font-semibold",)}
+                >
+                   {Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "zmw",
+                  }).format(Math.floor(price) / 100)}
                 </span>
               </>
             ) : (
