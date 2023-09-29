@@ -1,5 +1,6 @@
 import Announcements from "@modules/home/components/announcements"
 import ProductCategories from "@modules/home/components/categories"
+import CategoryBrands from "@modules/home/components/category-brands"
 import Contact from "@modules/home/components/contact"
 import Faq from "@modules/home/components/faq"
 import FeaturedProducts from "@modules/home/components/featured-products"
@@ -19,8 +20,13 @@ const Home = () => {
   return (
     <>
       <Hero />
+      <CategoryBrands />
+      <NewProducts />
+      <ProductCategories/>
+
       <NewProducts />
       <ProductCategories />
+
       <Announcements />
       <FeaturedProducts />
       {/* <Faq/>

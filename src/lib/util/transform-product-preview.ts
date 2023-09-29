@@ -27,7 +27,7 @@ const transformProductPreview = (
     title: product.title!,
     handle: product.handle!,
     thumbnail: product.thumbnail!,
-    price:product.variants[0].prices[0].amount
+    price: product.variants[0].prices[0].amount!
   }
 }
 

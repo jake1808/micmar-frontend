@@ -12,10 +12,10 @@ function Announcements() {
     }
  
   return (
-    <div className="2xl:container max-h-fit md:h-screen 2xl:mx-auto lg: lg:px-20 px-10  md:px-6 ">
+    <div className="2xl:container max-h-fit md:h-screen  border-red-500 flex flex-col items-center justify-center 2xl:mx-auto lg: lg:px-20 px-10  md:px-6 ">
       <div 
        
-      className="flex  justify-center bg-[url('/annabanner.jpg')] md:py-0 bg-cover md:bg-fixed bg-center  md:h-2/4  bg-no-repeat p-10  2xl:container overflow:none w-full border-yellow-500 flex-col md:flex-row space-y-4 md:space-y-0">
+      className="flex  justify-center bg-[url('/annabanner.jpg')] md:py-0 bg-cover   bg-center  md:h-2/4  bg-no-repeat p-10  2xl:container overflow:none w-full border-yellow-500 flex-col md:flex-row space-y-4 md:space-y-0">
 
         <div 
        
