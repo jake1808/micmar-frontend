@@ -101,9 +101,9 @@ function CategoryBrands() {
   ];
   
   return (
-    <div className="2xl:container max-h-fit md:h-screen 2xl:mx-auto lg: text-center lg:px-20 px-10 flex flex-col item-c   md:px-6  py-10   border-yellow-500">
-      <h1 className="text-center   py-10 text-2xl-regular w-full text-gray-900  mb-4">
-                Shop By Category
+    <div className="2xl:container max-h-fit md:h-[100vh] 2xl:mx-auto lg: text-center lg:px-20 px-10 flex flex-col item-c   md:px-6  py-10   border-yellow-500">
+      <h1 className="text-center   text-2xl-regular w-full text-gray-900  ">
+                Shop By Brand
               </h1>
               <div>
               <Slider {...settings}  >

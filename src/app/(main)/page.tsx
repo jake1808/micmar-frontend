@@ -23,16 +23,11 @@ const Home = () => {
       <CategoryBrands />
       <NewProducts />
       <ProductCategories/>
-
       <NewProducts />
-      <ProductCategories />
-
       <Announcements />
       <FeaturedProducts />
-      {/* <Faq/>
-      <News/> */}
       <NewsLetter />
-      {/* <Contact/> */}
+
     </>
   )
 }

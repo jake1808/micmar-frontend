@@ -18,7 +18,7 @@ const Nav = () => {
 
   //useEffect that detects if window is scrolled > 5px on the Y axis
   useEffect(() => {
-    if (isHome) {
+    if (true) {
       const detectScrollY = () => {
         if (window.scrollY > 5) {
           setIsScrolled(true)
@@ -33,7 +33,7 @@ const Nav = () => {
         window.removeEventListener("scroll", detectScrollY)
       }
     }
-  }, [isHome])
+  }, [])
 
   useEffect(() => {
     pathname === "/" ? setIsHome(true) : setIsHome(false)
@@ -44,14 +44,15 @@ const Nav = () => {
   return (
     <div
       className={clsx("sticky top-0    border-red-500 inset-x-0 z-50 group", {
-        "!fixed": isHome,
+        "!fixed": true,
       },(isScrolled ? "shadow-md":"border-transparent"))}
     >
      <header
         className={clsx(
           "relative h-16 px-8 mx-auto transition-colors bg-transparent border-b border-transparent duration-200 group-hover:bg-white group-hover:border-gray-200",
           {
-            "!bg-white !border-gray-200": !isHome || isScrolled,
+            "!bg-white !border-gray-200": isScrolled,
+            // "bg-white !border-gray-200": isScrolled,
           }
         )}
       >
@@ -59,7 +60,7 @@ const Nav = () => {
           className={clsx(
             "text-gray-900 flex items-center justify-between w-full h-full text-small-regular transition-colors duration-200",
             {
-              "text-white group-hover:text-gray-900": isHome && !isScrolled,
+              "text-white group-hover:text-gray-900": !isScrolled,
             }
           )}
         >
