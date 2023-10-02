@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NewsLetter() {
 return (
-<div className="2xl:container max-h-fit md:h-screen 2xl:mx-auto lg: lg:px-20 px-10  md:px-6 ">
+<div className="2xl:container max-h-fit h-screen border-yellow-500 flex flex-col justify-center items-center  2xl:mx-auto lg: lg:px-20 px-10  md:px-6 ">
 <div className=" w-full  relative flex items-center justify-center">
 <img src="newsletter.jpg" alt="newsletter" className="w-full h-full absolute z-0 hidden xl:block" />
 <img src="https://i.ibb.co/bbS3J9C/pexels-max-vakhtbovych-6301182-1.png" alt="dining" className="w-full h-full absolute z-0 hidden sm:block xl:hidden" />

@@ -2,10 +2,10 @@ import React, { useState } from "react"
 import Image from "next/image"
 export default function ProductCategories() {
   return (
-    <div className=" 2xl:container 2xl:mx-auto lg: bor2 border-pink-500 h-screen lg:px-20 px-10   md:px-6 ">
+    <div className=" 2xl:container max-h-fit 2xl:mx-auto lg: bor2 border-pink-500 h-screen lg:px-20 px-10   md:px-6 ">
       <div className="flex justify-center bord border-green-500 items-center">
         <div className="2xl:mx-auto  bo2 border-yellow-500 2xl:container  px-4 sm:px-6 xl:px-20 2xl:px-0 w-full">
-          <div className="flex flex-col bor border-red-500 h-screen  jusitfy-center items-center space-y-10">
+          <div className="flex flex-col bor border-red-500 h-screen  jusitfy-center items-center space-y-5">
             <div className="flex flex-col justify-center items-center space-y-2">
               <p className="text-xl leading-5 text-gray-600">
                

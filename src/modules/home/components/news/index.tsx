@@ -5,10 +5,10 @@ function News() {
     <>
       <div id="blog" className="bg-white  max-h-fit pt-10 px-10 md:mt-10 md:h-screen  xl:px-0 ">
         <div className="mx-auto    md:w-11/12">
-        <h1 className="   md:py-5 text-2xl-regular w-full text-gray-900  mb-4">
+        <h1 className="   text-2xl-regular w-full text-gray-900 ">
             News
           </h1>
-          <div className="mt-12  lg:mt-24">
+          <div className="mt-5  md:pt-6">
             <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
               <div className="shadow-lg rounded-lg">
                 <img
