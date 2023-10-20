@@ -12,7 +12,21 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import React, { useState } from "react"
 
+import { useProductCategories} from "medusa-react"
+import { ProductCategory } from "@medusajs/medusa"
+
 const DropdownMenu = () => {
+
+  const { 
+    error,
+    product_categories, 
+    isLoading,
+  } = useProductCategories()
+
+  // console.log('in dropdown')
+  console.log("in dropdown menu", product_categories," error ", error, " isLoading ", isLoading)
+
+
   const [open, setOpen] = useState(false)
   const { push } = useRouter()
   const { data: collections, isLoading: loadingCollections } =
@@ -54,11 +68,13 @@ const DropdownMenu = () => {
                 static
                 className="absolute top-full inset-x-0 text-sm text-gray-700 z-30 border-y border-gray-200"
               >
+                
                 <div className="relative bg-white py-8">
                   <div className="flex items-start content-container">
                     <div className="flex flex-col flex-1 max-w-[30%]">
                       <h3 className="text-base-semi text-gray-900 mb-4">
-                        Collections
+                        Collections 
+       
                       </h3>
                       <div className="flex items-start">
                         {collections &&
