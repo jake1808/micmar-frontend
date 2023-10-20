@@ -23,7 +23,7 @@ const DropdownMenu = () => {
     isLoading,
   } = useProductCategories()
 
-  // console.log('in dropdown')
+   console.log('in dropdown')
   console.log("in dropdown menu", product_categories," error ", error, " isLoading ", isLoading)
 
 
