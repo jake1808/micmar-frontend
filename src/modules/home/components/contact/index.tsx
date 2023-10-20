@@ -5,9 +5,9 @@ import Image from "next/image"
 function Contact() {
   const [show, setShow] = useState(true)
   return (
-    <div className="bg-white min-h-fit border-red-500 md:h-screen  w-full">
-      <div className=" 2xl:container flex bor md:flex-row flex-col md:space-x-14   px-10 border-yellow-500 md:w-11/12  m-auto   justify-between ">
-        <div className=" bg-white rounded  b border-yellow-500 ">
+    <div className="bg-white min-h-fit   flex flex-col justify-center  border-red-500 md:h-screen  w-full">
+      <div className=" 2xl:container flex  md:flex-row flex-col md:justify-center md:space-x-14   px-10 border-yellow-500 md:w-11/12  m-auto   ">
+        <div className=" bg-white rounded flex flex-col justify-center      border-yellow-500 ">
           <p className=" pb-5  md:pb-5 text-2xl-regular w-full text-gray-900 ">
             Contact Us!
           </p>
@@ -88,11 +88,11 @@ function Contact() {
             </button>
           </div>
         </div>
-        <div className=" hidden md:flex w-fit b border-red-500  h-2/3">
+        <div className=" hidden md:flex flex-col justify-  w-fit object-contain  md:p-10  border-red-500  h-full">
         <Image
-            className=" "
+            className=" h-full object-cover "
             src="/lighting.jpg"
-            height={500}
+            height={200}
             width={800}
             alt="A group of People"
           />

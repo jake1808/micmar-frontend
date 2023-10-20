@@ -8,7 +8,7 @@ const [show3, setShow3] = useState(false);
 const [show4, setShow4] = useState(false);
 
 return (
-    <div className=" 2xl:container  max-h-fit md:h-screen px-10 flex flex-col justify-center  2xl:mx-auto lg:px-20  md:px-6 ">
+    <div className=" 2xl:container  max-h-fit md:h-screen py-10 border-red-600 px-10 flex flex-col justify-center  2xl:mx-auto lg:px-20  md:px-6 ">
         <h2 className="   md:py-5 text-2xl-regular w-full text-gray-900">Frequently Asked Questions</h2>
         <div className=" flex md:justify-between md:items-start md:flex-row flex-col justify-start items-start">
             <div className=" ">

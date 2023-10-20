@@ -16,7 +16,7 @@ function News() {
                   src="[https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png](https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png)"
                   alt="computer"
                 />
-                <div className="py-4 px-8 w-full flex justify-between bg-[#4F80C1]">
+                <div className="py-4 px-8 w-full flex justify-between bg-[#154D8F]">
                   <p className="text-sm text-white font-semibold tracking-wide">
                    Micmar
                   </p>
@@ -70,7 +70,7 @@ function News() {
                       src="[https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png](https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png)"
                       alt="games"
                     />
-                    <div className="py-2 px-4 w-full flex justify-between bg-[#4F80C1]">
+                    <div className="py-2 px-4 w-full flex justify-between bg-[#154D8F]">
                       <p className="text-sm text-white font-semibold tracking-wide">
                         Micmar
                       </p>
@@ -93,7 +93,7 @@ function News() {
                       src="[https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(3).png](https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(3).png)"
                       alt="notes"
                     />
-                    <div className="py-2 px-4 w-full flex justify-between bg-[#4F80C1]">
+                    <div className="py-2 px-4 w-full flex justify-between bg-[#154D8F]">
                       <p className="text-sm text-white font-semibold tracking-wide">
                         Micmar
                       </p>
@@ -118,7 +118,7 @@ function News() {
                       src="[https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(4).png](https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(4).png)"
                       alt="laptop"
                     />
-                    <div className="py-2 px-4 w-full flex justify-between bg-[#4F80C1]">
+                    <div className="py-2 px-4 w-full flex justify-between bg-[#154D8F]">
                       <p className="text-sm text-white font-semibold tracking-wide">
                         Micmar
                       </p>
@@ -141,7 +141,7 @@ function News() {
                       src="[https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(5).png](https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(5).png)"
                       alt="worker"
                     />
-                    <div className="py-2 px-4 w-full flex justify-between bg-[#4F80C1]">
+                    <div className="py-2 px-4 w-full flex justify-between bg-[#154D8F]">
                       <p className="text-sm text-white font-semibold tracking-wide">
                         Micmar
                       </p>

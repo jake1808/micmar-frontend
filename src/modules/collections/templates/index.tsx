@@ -43,7 +43,7 @@ const CollectionTemplate: React.FC<CollectionTemplateProps> = ({
       getNextPageParam: (lastPage) => lastPage.nextPage,
     }
   )
-
+ console.log("in collections template")
   useEffect(() => {
     if (cart?.region_id) {
       refetch()

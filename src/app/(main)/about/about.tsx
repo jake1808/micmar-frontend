@@ -32,7 +32,7 @@ const AboutUs = () => {
             customers’ needs better than anyone else in the country.
           </p>
         </div>
-        <div className="w-full flex-1  lg:w-8/12 ">
+        <div className="w-full flex-1 md:px-5 md:pb-b  lg:w-8/12 ">
           <Image
            width={500}
            height={500}
